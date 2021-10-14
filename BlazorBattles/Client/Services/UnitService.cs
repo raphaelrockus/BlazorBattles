@@ -23,7 +23,7 @@ namespace BlazorBattles.Client.Services
             MyUnits.Add(new UserUnit { UnitId = unit.Id, HitPoints = unit.HitPoints });
 
             Console.WriteLine($"{unit.Title} was built!");
-            Console.WriteLine($"Your army size; {MyUnits.Count}");
+            Console.WriteLine($"Your army size {MyUnits.Count}");
         
         }
     }
