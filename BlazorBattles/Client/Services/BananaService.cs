@@ -13,8 +13,8 @@ namespace BlazorBattles.Client.Services
 
         public void AddBananas(int amount)
         {
-            //Bananas += amount;
-            //BananasChanged();
+            Bananas += amount;
+            BananasChanged();
         }
 
         public void EatBananas(int amount)
